@@ -1,0 +1,58 @@
+body {
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+:root,
+body,
+html {
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+
+
+div,
+header,
+small,
+img,
+span,
+label,
+html,
+nav,
+li,
+ul,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+}
