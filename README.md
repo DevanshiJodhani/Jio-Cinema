@@ -1,8 +1,9 @@
-# React + Vite
+# Jio Cinema Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have created a Jio Cinema clone using React.js with the Vite framework, Firebase, and styled-components.
 
-Currently, two official plugins are available:
+## Featuers
+- Login and logout capabilities.
+- Full responsiveness across devices.
+- Clickable movie boxes to view detailed information about each movie.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
