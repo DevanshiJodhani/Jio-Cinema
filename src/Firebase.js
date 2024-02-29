@@ -7,13 +7,13 @@ import 'firebase/compat/storage';
 
 
 const firebaseConfig = {
-    apiKey: import.meta.env['VITE_API_KEY'].slice(0, -2),
-    authDomain: import.meta.env['VITE_AUTH_DOMAIN'].slice(0, -2),
-    projectId: import.meta.env['VITE_PROJECT_ID'].slice(0, -2),
-    storageBucket: import.meta.env['VITE_STORAGE_BUCKET'].slice(0, -2),
-    messagingSenderId: import.meta.env['VITE_MESSAGINGSENDER_ID'].slice(0, -2),
-    appId: import.meta.env['VITE_APP_ID'].slice(0, -2),
-    measurementId: import.meta.env['VITE_MEASUREMENT_ID']
+    apiKey: import.meta.env['VITE_API_KEY'].replace(/[" ,]/g, ''),
+    authDomain: import.meta.env['VITE_AUTH_DOMAIN'].replace(/[" ,]/g, ''),
+    projectId: import.meta.env['VITE_PROJECT_ID'].replace(/[" ,]/g, ''),
+    storageBucket: import.meta.env['VITE_STORAGE_BUCKET'].replace(/[" ,]/g, ''),
+    messagingSenderId: import.meta.env['VITE_MESSAGINGSENDER_ID'].replace(/[" ,]/g, ''),
+    appId: import.meta.env['VITE_APP_ID'].replace(/[" ,]/g, ''),
+    measurementId: import.meta.env['VITE_MEASUREMENT_ID'].replace(/[" ,]/g, '')
 };
 
 
