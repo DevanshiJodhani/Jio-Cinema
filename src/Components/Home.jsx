@@ -85,7 +85,6 @@ const Home = (props) => {
                 <a>Marathi</a>
                 <a>Bengali</a>
                 <a>Tamil</a>
-                <p>This is test message</p>
             </TopLinks>
 
             <ImgSlider />
